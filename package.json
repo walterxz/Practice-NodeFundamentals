@@ -1,0 +1,21 @@
+{
+  "name": "fundamentos",
+  "version": "1.0.0",
+  "description": "Practica fundamentos de node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev:globals": "nodemon ./src/modulos/globales.js",
+    "dev:filesystem": "nodemon ./src/modulos/fs.js",
+    "dev:console": "nodemon ./src/modulos/console.js",
+    "dev:error": "nodemon ./src/modulos/error.js",
+    "dev:child": "nodemon ./src/modulos/childProcess.js",
+    "dev:http": "nodemon ./src/modulos/http.js",
+    "dev:os": "nodemon ./src/modulos/os.js",
+    "dev:process": "nodemon ./src/modulos/process.js"
+  },
+  "author": "Walter",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
